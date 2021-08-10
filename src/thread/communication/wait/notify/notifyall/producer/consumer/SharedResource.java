@@ -1,4 +1,4 @@
-package thread.communication.wait.notify.notifyall;
+package thread.communication.wait.notify.notifyall.producer.consumer;
 
 public class SharedResource {
 

@@ -43,7 +43,6 @@ class TestOne implements Runnable {
 				e.printStackTrace();
 			}
 		}
-
 	}
 }
 
