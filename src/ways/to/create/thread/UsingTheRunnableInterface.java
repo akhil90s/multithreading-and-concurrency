@@ -14,13 +14,11 @@ public class UsingTheRunnableInterface implements Runnable {
 		};
 		Thread t2 = new Thread(run);
 		t2.start();
-		Thread.currentThread();
+		System.out.println(Thread.currentThread().getName());
 	}
 
 	@Override
 	public void run() {
-
 		System.out.println("Using Runnable Method Way 1");
-
 	}
 }
